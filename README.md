@@ -1,2 +1,3 @@
-# ai-dummy-app
-this repository is being created for demo purposes
+# MCP Demo - AI Content Platform
+
+Demo repository for MCP blog post.
