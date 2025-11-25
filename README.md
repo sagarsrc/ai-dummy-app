@@ -1,18 +1,27 @@
-# ai-dummy-app
+# AI Demo App
 
-Demo SaaS app for MCP blog - AI-powered content platform
+An AI-powered chat application built with FastAPI and React.
 
-## Team
-- **AI Team**: Sagar
-- **Backend Team**: Swathi
-- **Frontend Team**: Zeeshan
-- **Managers**: Jay
+## Features
+- OpenAI GPT-4 integration
+- Real-time streaming responses
+- Conversation history
+- User authentication
 
-## Structure
+## Tech Stack
+- Backend: FastAPI, PostgreSQL, Redis
+- Frontend: React, TypeScript, TailwindCSS
+- AI: OpenAI API, LangChain
+
+## Getting Started
+```bash
+# Backend
+cd backend && pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend
+cd frontend && npm install && npm run dev
 ```
-ai-dummy-app/
-├── backend/        # FastAPI backend
-├── frontend/       # React frontend
-├── ai-service/     # LLM integration
-└── docs/
-```
+
+## License
+MIT
